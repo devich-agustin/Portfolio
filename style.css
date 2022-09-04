@@ -490,3 +490,286 @@ figure h5 {
     color: var(--color-detalles);
     border-bottom: 1px solid currentcolor;
 }
+
+/* @ MEDIA QUERIES  */
+
+/* MEDIA QUERIES 1440 PX */
+
+@media screen and (max-width: 1440px) {
+
+    .edu__1 h2 {
+        font-size: 1.5rem;
+    }
+
+    .educacion2 h2 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .soft {
+        width: 100%;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .contenedorHabilidades {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer__barra-navegacion ul {
+        gap: 9rem;
+    }
+
+}
+
+
+/* MEDIA QUERIES 1024 PX */
+
+@media screen and (max-width: 1024px) {
+
+    .edu__1 h2 {
+        font-size: 1.2rem;
+    }
+
+    .educacion2 h2 {
+        font-size: 1.2rem;
+    }
+
+    .linkedin {
+        width: 90px;
+        height: 90px;
+    }
+
+    .correo {
+        width: 90px;
+        height: 80px;
+    }
+
+    .footer__barra-navegacion ul {
+        gap: 5rem;
+    }
+
+}
+
+/* MEDIA QUERIES 768 PX */
+
+@media screen and (max-width: 768px) {
+
+    .contenido-descripcion .titulo {
+        letter-spacing: 4px;
+    }
+
+    .contenido-descripcion article {
+        width: 80%;
+    }
+
+    .edu__1 {
+        width: 90%;
+    }
+
+    .edu__1 h2 {
+        font-size: 1rem;
+    }
+
+    .lineaEducacion {
+        width: 90%;
+    }
+
+    .jobs {
+        height: auto;
+    }
+
+    .jobs__contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jobs__caja {
+        width: 50%;
+        height: 400px;
+        margin: 3rem;
+    }
+
+    .footer__barra-navegacion ul {
+        gap: 2rem;
+    }
+}
+
+
+/* MEDIA QUERIES 425 PX */
+
+@media screen and (max-width: 425px) {
+
+    .barra-navegacion {
+        display: none;
+    }
+
+    .contenedor {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        z-index: 99;
+        opacity: .85;
+    }
+
+    .contenido-descripcion {
+        width: auto;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .descripcion {
+        text-align: inherit;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+
+    .descripcion a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenido-descripcion .titulo span:first-child {
+        font-size: 30px;
+        display: block;
+        font-weight: 300;
+    }
+
+    .contenido-descripcion .titulo span:last-child {
+        font-weight: 900;
+        font-size: 45px;
+    }
+
+    .edu {
+        height: auto;
+    }
+
+    .edu__contenedor {
+        align-items: center;
+    }
+
+    .edu__1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .edu__1 .texto1 {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .texto2,
+    .texto3,
+    .texto4,
+    .texto5 {
+        align-items: center;
+    }
+
+    .lineaEducacion {
+        display: none;
+    }
+
+    .educacion2 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .material-symbols-outlined {
+        transform: rotate(180deg);
+    }
+
+    #flecha {
+        transform: none;
+    }
+
+    #modif__texto3 {
+        margin-bottom: 0;
+    }
+
+    #modif__flecha__3 {
+        display: none;
+    }
+
+    .texto4,
+    .texto5 {
+        margin-top: 0;
+    }
+
+    .texto5 {
+        margin-bottom: 2rem;
+    }
+
+    .jobs__caja {
+        width: 70%;
+        height: 320px;
+    }
+
+    .pContacto1 {
+        text-align: center;
+    }
+
+    .linkedin {
+        width: 70px;
+        height: 70px;
+    }
+
+    .correo {
+        width: 70px;
+        height: 60px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .footer__barra-navegacion ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* MEDIA QUERIES 375 PX */
+
+@media screen and (max-width:375px) {
+
+    .contenido-descripcion .titulo span:first-child {
+        font-size: 30px;
+    }
+
+    .contenido-descripcion .titulo span:last-child {
+        font-size: 40px;
+    }
+
+}
+
+/* MEDIA QUERIES 320 PX */
+
+@media screen and (max-width:320px) {
+
+    .contenido-descripcion .titulo span:first-child {
+        font-size: 25px;
+    }
+
+    .contenido-descripcion .titulo span:last-child {
+        font-size: 35px;
+    }
+
+}
