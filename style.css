@@ -642,6 +642,10 @@ figure h5 {
         text-align: center;
     }
 
+    .texto1 h2 {
+        text-align: center;
+    }
+
     .contenido-descripcion .titulo span:first-child {
         font-size: 30px;
         display: block;
@@ -744,11 +748,21 @@ figure h5 {
         display: flex;
         flex-direction: column;
     }
+
+    .footer__barra-navegacion ul {
+        padding-left: 0;
+    }
+
 }
 
 /* MEDIA QUERIES 375 PX */
 
 @media screen and (max-width:375px) {
+
+    .texto1 h2 {
+        text-align: center;
+    }
+
 
     .contenido-descripcion .titulo span:first-child {
         font-size: 30px;
@@ -758,11 +772,19 @@ figure h5 {
         font-size: 40px;
     }
 
+    .footer__barra-navegacion ul {
+        padding-left: 0;
+    }
+
 }
 
 /* MEDIA QUERIES 320 PX */
 
 @media screen and (max-width:320px) {
+
+    .texto1 h2 {
+        text-align: center;
+    }
 
     .contenido-descripcion .titulo span:first-child {
         font-size: 25px;
@@ -770,6 +792,10 @@ figure h5 {
 
     .contenido-descripcion .titulo span:last-child {
         font-size: 35px;
+    }
+
+    .footer__barra-navegacion ul {
+        padding-left: 0;
     }
 
 }
