@@ -133,7 +133,8 @@ body {
 
 .edu {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    margin-top: 4rem;
     background-color: var(--color-fondo);
     display: flex;
     flex-direction: column;
@@ -378,7 +379,8 @@ figure h5 {
 /* CONTACTO */
 .cont {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
